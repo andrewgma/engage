@@ -32,7 +32,7 @@ function checkKeyWords($urlContents)
 
 			$contents .= "</div>";
 
-			$contents .= "<div id='pictures'>boosldkjflk</div>";
+			$contents .= "<div id='pictures'></div>";
 			
 			break;
 		}

@@ -1,7 +1,54 @@
 @CHARSET "ISO-8859-1";
 
+body{
+	font-family: Arial;
+	font-size: 12px;
+}
+
 .options{
-	width: 300px;
+	width: 80px;
 	margin: 0 auto;
 }
 
+.pic1{
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+}
+
+.pic2{
+	width: 100px;
+	float: left;
+	
+}
+
+.pic3{
+	width: 100px;
+	float: right;
+	border: 2px solid #000000;
+}
+
+
+.bottomPics{
+	width: 250px;
+	margin: 20px  auto 0 auto;
+}
+
+.topPic{
+	width: 100px;
+	margin: 0 auto;
+}
+
+.leftPic{
+	width: 100px;
+	float: left;
+}
+
+.rightPic{
+	width: 100px;
+	float: right;
+}
+
+span{	
+	text-align:center;
+}	

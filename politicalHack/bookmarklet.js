@@ -27,8 +27,8 @@ function openbm()
 	bookmarklet_box.style.top = "15px";
 	bookmarklet_box.style.zIndex = "99999";
 	bookmarklet_box.style.right = "15px";
-	bookmarklet_box.style.border = "5px solid #808080";
-	bookmarklet_box.style.background = "#FFFFFF";
+	bookmarklet_box.style.border = "5px solid #04608E";
+	bookmarklet_box.style.background = "#f0f0f0";
 	
 	bookmarklet_box.id = "politicalBM";
 	
@@ -36,7 +36,7 @@ function openbm()
 
 	var url = "http://vyu.me/politicalHack/bookmarkletDisplay.php?" + window.btoa(query_url);
 	
-	bookmarklet_box.innerHTML = "<div style='text-align: right; padding: 4px;font-weight: bold;'><a style='color: #FFFFFF;text-decoration: none;' href='javascript:closebm();'>X</a></div>" + "<iframe src='"+url+"' height='400px' width='315px' style='border: 0;border-top: 1px solid #000;'></iframe>";
+	bookmarklet_box.innerHTML = "<div style='text-align: right; padding: 4px;font-weight: bold;'><span style='text-align:left;padding-right:50px;'>Make Your Opinion Matter<span><a style='color: #000000;text-decoration: none;' href='javascript:closebm();'>X</a></div>" + "<iframe src='"+url+"' height='400px' width='315px' style='border: 0;border-top: 3px solid #04608E;'></iframe>";
 
 	document.body.appendChild(bookmarklet_box);
 }
